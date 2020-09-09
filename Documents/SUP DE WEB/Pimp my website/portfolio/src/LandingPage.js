@@ -1,10 +1,11 @@
-import React from "react"
-import Header from './Header.js'
+import React from 'react'
+import Header from './components/Header.js'
 
-const landingpage = () => {
+const LandingPage = () => {
     return <div>
-        <Header />
+        <Header title="Coleen Hare" />
+        <Header title="Contact" />
     </div>
-
 }
-export default landingpage
+
+export default LandingPage
